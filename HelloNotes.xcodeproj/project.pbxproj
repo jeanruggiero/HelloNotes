@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C5450C723C69EA100428D6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5450C623C69EA100428D6C /* AppDelegate.swift */; };
+		4C5450C923C69EA100428D6C /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5450C823C69EA100428D6C /* Document.swift */; };
+		4C5450CB23C69EA100428D6C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5450CA23C69EA100428D6C /* ContentView.swift */; };
+		4C5450CD23C69EA600428D6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C5450CC23C69EA600428D6C /* Assets.xcassets */; };
+		4C5450D023C69EA600428D6C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C5450CF23C69EA600428D6C /* Preview Assets.xcassets */; };
+		4C5450D323C69EA600428D6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C5450D123C69EA600428D6C /* Main.storyboard */; };
+		4C5450DF23C69EA700428D6C /* HelloNotesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5450DE23C69EA700428D6C /* HelloNotesTests.swift */; };
+		4C5450EA23C69EA700428D6C /* HelloNotesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5450E923C69EA700428D6C /* HelloNotesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C5450DB23C69EA700428D6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C5450BB23C69EA100428D6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C5450C223C69EA100428D6C;
+			remoteInfo = HelloNotes;
+		};
+		4C5450E623C69EA700428D6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C5450BB23C69EA100428D6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C5450C223C69EA100428D6C;
+			remoteInfo = HelloNotes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C5450C323C69EA100428D6C /* HelloNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C5450C623C69EA100428D6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4C5450C823C69EA100428D6C /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		4C5450CA23C69EA100428D6C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4C5450CC23C69EA600428D6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C5450CF23C69EA600428D6C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4C5450D223C69EA600428D6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C5450D423C69EA600428D6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C5450D523C69EA600428D6C /* HelloNotes.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HelloNotes.entitlements; sourceTree = "<group>"; };
+		4C5450DA23C69EA700428D6C /* HelloNotesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloNotesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C5450DE23C69EA700428D6C /* HelloNotesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloNotesTests.swift; sourceTree = "<group>"; };
+		4C5450E023C69EA700428D6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C5450E523C69EA700428D6C /* HelloNotesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloNotesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C5450E923C69EA700428D6C /* HelloNotesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloNotesUITests.swift; sourceTree = "<group>"; };
+		4C5450EB23C69EA700428D6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C5450C023C69EA100428D6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C5450D723C69EA700428D6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C5450E223C69EA700428D6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C5450BA23C69EA100428D6C = {
+			isa = PBXGroup;
+			children = (
+				4C5450C523C69EA100428D6C /* HelloNotes */,
+				4C5450DD23C69EA700428D6C /* HelloNotesTests */,
+				4C5450E823C69EA700428D6C /* HelloNotesUITests */,
+				4C5450C423C69EA100428D6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C5450C423C69EA100428D6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C5450C323C69EA100428D6C /* HelloNotes.app */,
+				4C5450DA23C69EA700428D6C /* HelloNotesTests.xctest */,
+				4C5450E523C69EA700428D6C /* HelloNotesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C5450C523C69EA100428D6C /* HelloNotes */ = {
+			isa = PBXGroup;
+			children = (
+				4C5450C623C69EA100428D6C /* AppDelegate.swift */,
+				4C5450C823C69EA100428D6C /* Document.swift */,
+				4C5450CA23C69EA100428D6C /* ContentView.swift */,
+				4C5450CC23C69EA600428D6C /* Assets.xcassets */,
+				4C5450D123C69EA600428D6C /* Main.storyboard */,
+				4C5450D423C69EA600428D6C /* Info.plist */,
+				4C5450D523C69EA600428D6C /* HelloNotes.entitlements */,
+				4C5450CE23C69EA600428D6C /* Preview Content */,
+			);
+			path = HelloNotes;
+			sourceTree = "<group>";
+		};
+		4C5450CE23C69EA600428D6C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4C5450CF23C69EA600428D6C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4C5450DD23C69EA700428D6C /* HelloNotesTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C5450DE23C69EA700428D6C /* HelloNotesTests.swift */,
+				4C5450E023C69EA700428D6C /* Info.plist */,
+			);
+			path = HelloNotesTests;
+			sourceTree = "<group>";
+		};
+		4C5450E823C69EA700428D6C /* HelloNotesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4C5450E923C69EA700428D6C /* HelloNotesUITests.swift */,
+				4C5450EB23C69EA700428D6C /* Info.plist */,
+			);
+			path = HelloNotesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C5450C223C69EA100428D6C /* HelloNotes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C5450EE23C69EA700428D6C /* Build configuration list for PBXNativeTarget "HelloNotes" */;
+			buildPhases = (
+				4C5450BF23C69EA100428D6C /* Sources */,
+				4C5450C023C69EA100428D6C /* Frameworks */,
+				4C5450C123C69EA100428D6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloNotes;
+			productName = HelloNotes;
+			productReference = 4C5450C323C69EA100428D6C /* HelloNotes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C5450D923C69EA700428D6C /* HelloNotesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C5450F123C69EA700428D6C /* Build configuration list for PBXNativeTarget "HelloNotesTests" */;
+			buildPhases = (
+				4C5450D623C69EA700428D6C /* Sources */,
+				4C5450D723C69EA700428D6C /* Frameworks */,
+				4C5450D823C69EA700428D6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C5450DC23C69EA700428D6C /* PBXTargetDependency */,
+			);
+			name = HelloNotesTests;
+			productName = HelloNotesTests;
+			productReference = 4C5450DA23C69EA700428D6C /* HelloNotesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4C5450E423C69EA700428D6C /* HelloNotesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C5450F423C69EA700428D6C /* Build configuration list for PBXNativeTarget "HelloNotesUITests" */;
+			buildPhases = (
+				4C5450E123C69EA700428D6C /* Sources */,
+				4C5450E223C69EA700428D6C /* Frameworks */,
+				4C5450E323C69EA700428D6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C5450E723C69EA700428D6C /* PBXTargetDependency */,
+			);
+			name = HelloNotesUITests;
+			productName = HelloNotesUITests;
+			productReference = 4C5450E523C69EA700428D6C /* HelloNotesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C5450BB23C69EA100428D6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Jean Ruggiero";
+				TargetAttributes = {
+					4C5450C223C69EA100428D6C = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					4C5450D923C69EA700428D6C = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 4C5450C223C69EA100428D6C;
+					};
+					4C5450E423C69EA700428D6C = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 4C5450C223C69EA100428D6C;
+					};
+				};
+			};
+			buildConfigurationList = 4C5450BE23C69EA100428D6C /* Build configuration list for PBXProject "HelloNotes" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C5450BA23C69EA100428D6C;
+			productRefGroup = 4C5450C423C69EA100428D6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C5450C223C69EA100428D6C /* HelloNotes */,
+				4C5450D923C69EA700428D6C /* HelloNotesTests */,
+				4C5450E423C69EA700428D6C /* HelloNotesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C5450C123C69EA100428D6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C5450D323C69EA600428D6C /* Main.storyboard in Resources */,
+				4C5450D023C69EA600428D6C /* Preview Assets.xcassets in Resources */,
+				4C5450CD23C69EA600428D6C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C5450D823C69EA700428D6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C5450E323C69EA700428D6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C5450BF23C69EA100428D6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C5450C923C69EA100428D6C /* Document.swift in Sources */,
+				4C5450C723C69EA100428D6C /* AppDelegate.swift in Sources */,
+				4C5450CB23C69EA100428D6C /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C5450D623C69EA700428D6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C5450DF23C69EA700428D6C /* HelloNotesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C5450E123C69EA700428D6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C5450EA23C69EA700428D6C /* HelloNotesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C5450DC23C69EA700428D6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C5450C223C69EA100428D6C /* HelloNotes */;
+			targetProxy = 4C5450DB23C69EA700428D6C /* PBXContainerItemProxy */;
+		};
+		4C5450E723C69EA700428D6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C5450C223C69EA100428D6C /* HelloNotes */;
+			targetProxy = 4C5450E623C69EA700428D6C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C5450D123C69EA600428D6C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C5450D223C69EA600428D6C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C5450EC23C69EA700428D6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4C5450ED23C69EA700428D6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		4C5450EF23C69EA700428D6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HelloNotes/HelloNotes.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"HelloNotes/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HelloNotes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeanmruggiero.HelloNotes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4C5450F023C69EA700428D6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HelloNotes/HelloNotes.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"HelloNotes/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HelloNotes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeanmruggiero.HelloNotes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		4C5450F223C69EA700428D6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HelloNotesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeanmruggiero.HelloNotesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloNotes.app/Contents/MacOS/HelloNotes";
+			};
+			name = Debug;
+		};
+		4C5450F323C69EA700428D6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HelloNotesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeanmruggiero.HelloNotesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloNotes.app/Contents/MacOS/HelloNotes";
+			};
+			name = Release;
+		};
+		4C5450F523C69EA700428D6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HelloNotesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeanmruggiero.HelloNotesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = HelloNotes;
+			};
+			name = Debug;
+		};
+		4C5450F623C69EA700428D6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HelloNotesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeanmruggiero.HelloNotesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = HelloNotes;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C5450BE23C69EA100428D6C /* Build configuration list for PBXProject "HelloNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C5450EC23C69EA700428D6C /* Debug */,
+				4C5450ED23C69EA700428D6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C5450EE23C69EA700428D6C /* Build configuration list for PBXNativeTarget "HelloNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C5450EF23C69EA700428D6C /* Debug */,
+				4C5450F023C69EA700428D6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C5450F123C69EA700428D6C /* Build configuration list for PBXNativeTarget "HelloNotesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C5450F223C69EA700428D6C /* Debug */,
+				4C5450F323C69EA700428D6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C5450F423C69EA700428D6C /* Build configuration list for PBXNativeTarget "HelloNotesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C5450F523C69EA700428D6C /* Debug */,
+				4C5450F623C69EA700428D6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C5450BB23C69EA100428D6C /* Project object */;
+}
